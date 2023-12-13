@@ -15,6 +15,7 @@ float sensorUltrassonico;
 float sensorUltrassonico2;
 Ultrasonic ultrassomEspaco(52, 53); //ESPAÇO 
 Ultrasonic ultrassomReservatorio(30, 31); //RESERVATORIO 
+//DHT11
 DHT11 dht11(2);
 
 void setup() {
